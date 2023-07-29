@@ -1,0 +1,22 @@
+Variables:
+ are like boxes/containers which can hold data for us.we can change the data after if we want.
+ 8 Basic primitive data type
+ /** to store the whole number
+1) byte
+2)short
+ 3) int
+ 4) long
+ **/
+ /@@ to store data type  decimal values
+ 1)float
+2) double
+@@/
+/*** to store single character data type
+ 1) char
+ ***/
+/** to store True false value used boolean
+ 1)boolean
+ **/
+
+ Non Primitive data type
+ 1) String  // Most Widely used
