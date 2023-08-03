@@ -13,7 +13,7 @@ public class R1Boolean {
         }
         else
         {
-            System.out.println("The value ia false");
+            System.out.println("The value is false");
         }
     }
 }
