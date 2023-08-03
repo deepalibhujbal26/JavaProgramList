@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class R1Boolean {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
-        System.out.println("Enter the boolean value ");
+        System.out.println("Please enter the boolean value: ");
         boolean userInput=scanner.nextBoolean();
         if(userInput==true)
         {
