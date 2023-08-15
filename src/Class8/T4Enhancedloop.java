@@ -13,5 +13,20 @@ public class T4Enhancedloop {
              }
          }
         System.out.println(largest);
+
+            int small= nums[0];     ///find the smallerst even no in array
+          for(int j:nums){
+           if(j<small & j%2==0){
+           small =j;
+           }
+          }
+        System.out.println(small);
+
+
+          for(int i=0;i<nums.length;i++){       /// print the number who index is even number
+              if(i%2==0){
+                  System.out.print(nums[i]+" ");
+              }
+          }
     }
 }
