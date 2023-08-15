@@ -1,4 +1,4 @@
-package review1;
+package Review1;
 
 public class T1Variables {
     public static void main(String[] args) {

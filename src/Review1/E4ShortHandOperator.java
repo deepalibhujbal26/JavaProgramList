@@ -1,4 +1,4 @@
-package review1;
+package Review1;
 
 public class E4ShortHandOperator {
     public static void main(String[] args) {
