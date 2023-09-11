@@ -10,6 +10,7 @@ through constructor call. Print users name,
 public class userClass {
     String name;
     int mobileNumber;
+    String hi ;
 
     public userClass(String name, int mobileNumber) {
         this.name = name;
@@ -25,9 +26,11 @@ class subClass extends userClass {
         this.userAddress = userAddress;
     }
 
+
     void userDetails() {
 
-        System.out.println(super.name + " " + super.mobileNumber + " " + userAddress);
+        System.out.println(name + " " + mobileNumber + " " + userAddress);
+       // System.out.println(hi="byebey");
     }
 }
 

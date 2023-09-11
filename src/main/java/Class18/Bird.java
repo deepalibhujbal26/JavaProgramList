@@ -8,45 +8,40 @@ printInfo methods as well create the object of each class and call the methods
  */
 public class Bird {
 
-    String name;
-    int age;
-    boolean canFly;
-    String species;
-    Bird(String name ,int age,boolean canFly,String species){
-        this.name=name;
-        this.age=age;
-        this.canFly=canFly;
-        this.species=species;
+    private String name;
+    private int age;
+    private boolean canFly;
+    private String species;
 
+    Bird(String name, int age, boolean canFly, String species) {
+        this.name = name;
+        this.age = age;
+        this.canFly = canFly;
+        this.species = species;
     }
 
+    void print() {
+        System.out.println(name + " " + age + " " + canFly + " " + species);
+    }
 }
 
 class sparrow extends Bird {
-
-    sparrow(String name ,int age,boolean canFly,String species){
-        super( name , age, canFly,species);
-    }
-
-    void print(){
-        System.out.println(name+" "+age+" "+canFly+" "+species);
+    sparrow(String name, int age, boolean canFly, String species) {
+        super(name, age, canFly, species);
     }
 }
 
 class parrot extends Bird {
-    parrot(String name ,int age,boolean canFly,String species){
-        super(name , age, canFly,species);
-
-    }
-    void print1(){
-        System.out.println(name+" "+age+" "+canFly+" "+species);
+    parrot(String name, int age, boolean canFly, String species) {
+        super(name, age, canFly, species);
     }
 }
-class task{
+
+class task {
     public static void main(String[] args) {
-        sparrow obj=new sparrow("chiau",12,true,"wild");
+        Bird obj = new Bird("chiau", 12, true, "wild");
         obj.print();
-        sparrow obj1=new sparrow("chimani",2,true,"wild animals");
+        parrot obj1 = new parrot("chimani", 2, true, "wild animals");
         obj1.print();
 
     }
